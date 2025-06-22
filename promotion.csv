@@ -1,0 +1,51 @@
+EmployeeID,EmployeeName,OldDesignation,NewDesignation,PromotionDate,Remarks
+1,Moushumi Begum,Junior Engineer,Software Engineer,2024-01-02,
+2,Karim Ahmed,Junior Engineer,Software Engineer,2023-01-07,Good performance
+3,Rahim Khan,Software Engineer,Intern,2023-04-20,Good performance
+4,Salma Akter,Software Engineer,Project Manager,2023-03-19,Good performance
+5,Sadia Rahman,Project Manager,Intern,2023-04-17,
+6,Rahim Khan,Junior Engineer,HR Executive,2023-02-28,Good performance
+7,Rafiqur Rahman,Project Manager,Team Lead,2023-10-15,Yearly appraisal
+8,Arif Hossain,Project Manager,Intern,2024-02-19,Exceeded targets
+9,Rafiqur Rahman,HR Executive,Project Manager,2023-05-18,
+10,Karim Ahmed,Project Manager,Intern,2024-06-07,Promotion based on seniority
+11,Moushumi Begum,HR Executive,Project Manager,2024-02-29,Yearly appraisal
+12,Salma Akter,Project Manager,Team Lead,2024-05-10,Yearly appraisal
+13,Moushumi Begum,Senior HR Executive,Intern,2023-09-19,Yearly appraisal
+14,Fahim Hasan,Junior Engineer,Intern,2023-01-16,Exceeded targets
+15,Sadia Rahman,Project Manager,Intern,2023-09-02,
+16,Rafiqur Rahman,Junior Engineer,HR Executive,2023-07-21,Yearly appraisal
+17,Nabila Islam,Project Manager,Intern,2024-04-02,Exceeded targets
+18,Rafiqur Rahman,Software Engineer,Intern,2024-06-19,Exceeded targets
+19,Fahim Hasan,Software Engineer,Senior HR Executive,2024-03-28,Yearly appraisal
+20,Rahim Khan,Project Manager,Team Lead,2024-01-02,Promotion based on seniority
+21,Rahim Khan,Project Manager,Intern,2023-12-17,Good performance
+22,Salma Akter,Software Engineer,Project Manager,2023-12-08,
+23,Arif Hossain,Project Manager,Team Lead,2024-02-16,Promotion based on seniority
+24,Salma Akter,Senior HR Executive,Project Manager,2023-12-07,Promotion based on seniority
+25,Sadia Rahman,Software Engineer,HR Executive,2024-01-12,
+26,Fahim Hasan,Junior Engineer,Team Lead,2024-01-22,Exceeded targets
+27,Rahim Khan,Software Engineer,Team Lead,2023-07-05,Promotion based on seniority
+28,Rahim Khan,Senior Software Engineer,Intern,2023-12-27,Exceeded targets
+29,Tania Chowdhury,Project Manager,Team Lead,2023-01-09,Yearly appraisal
+30,Nabila Islam,Senior HR Executive,Project Manager,2023-04-22,Promotion based on seniority
+31,Arif Hossain,HR Executive,Intern,2023-04-14,Good performance
+32,Moushumi Begum,Software Engineer,Senior Software Engineer,2023-10-14,Exceeded targets
+33,Tania Chowdhury,Senior Software Engineer,Intern,2023-10-02,
+34,Nabila Islam,HR Executive,Team Lead,2024-06-11,
+35,Nabila Islam,Junior Engineer,Senior Software Engineer,2024-03-08,Yearly appraisal
+36,Sadia Rahman,HR Executive,Senior HR Executive,2024-03-02,Good performance
+37,Karim Ahmed,Junior Engineer,Project Manager,2023-02-03,Yearly appraisal
+38,Salma Akter,Senior HR Executive,Team Lead,2023-05-07,Exceeded targets
+39,Rafiqur Rahman,Junior Engineer,Team Lead,2023-12-03,Yearly appraisal
+40,Karim Ahmed,Project Manager,Team Lead,2024-04-01,
+41,Tania Chowdhury,Junior Engineer,Software Engineer,2023-05-07,Yearly appraisal
+42,Fahim Hasan,Senior HR Executive,Team Lead,2023-05-20,Promotion based on seniority
+43,Sadia Rahman,Senior Software Engineer,HR Executive,2024-06-13,Exceeded targets
+44,Tania Chowdhury,Senior HR Executive,Intern,2023-02-25,Yearly appraisal
+45,Sadia Rahman,Project Manager,Intern,2024-06-16,Exceeded targets
+46,Karim Ahmed,Junior Engineer,Software Engineer,2023-01-21,Promotion based on seniority
+47,Sadia Rahman,Senior HR Executive,Project Manager,2023-07-18,Good performance
+48,Salma Akter,Project Manager,Intern,2024-04-07,Yearly appraisal
+49,Sadia Rahman,Junior Engineer,Senior HR Executive,2023-03-31,Exceeded targets
+50,Arif Hossain,Project Manager,Intern,2023-08-30,Promotion based on seniority

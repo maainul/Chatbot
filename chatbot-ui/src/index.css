@@ -123,3 +123,15 @@ html, body {
 .input-area button:hover {
   background-color: #0056b3;
 }
+
+/* Typing indicator bubble */
+.message.bot.typing-indicator .message-content {
+  font-style: italic;
+  color: #888;
+}
+
+/* Disable send button during loading */
+.input-area button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}

@@ -1,0 +1,51 @@
+EmployeeID,EmployeeName,Designation,SalaryAmount,Currency,EffectiveFrom
+1,Salma Akter,Intern,32181,BDT,2023-11-06
+2,Fahim Hasan,Team Lead,69511,BDT,2024-04-18
+3,Fahim Hasan,HR Executive,65103,BDT,2023-01-30
+4,Arif Hossain,Senior HR Executive,35679,BDT,2023-09-06
+5,Moushumi Begum,Senior Software Engineer,102486,BDT,2023-10-10
+6,Arif Hossain,Project Manager,40738,BDT,2023-04-14
+7,Karim Ahmed,HR Executive,25505,BDT,2023-08-11
+8,Rafiqur Rahman,Project Manager,113180,BDT,2024-04-05
+9,Salma Akter,Team Lead,72323,BDT,2024-01-22
+10,Rafiqur Rahman,Software Engineer,29053,BDT,2023-08-11
+11,Karim Ahmed,Junior Engineer,48574,BDT,2023-07-05
+12,Sadia Rahman,Team Lead,35970,BDT,2023-06-02
+13,Nabila Islam,Intern,95757,BDT,2024-05-25
+14,Fahim Hasan,Software Engineer,86372,BDT,2023-01-28
+15,Salma Akter,Software Engineer,77965,BDT,2024-05-31
+16,Karim Ahmed,Project Manager,78535,BDT,2024-03-12
+17,Fahim Hasan,Project Manager,25476,BDT,2024-06-18
+18,Sadia Rahman,HR Executive,103089,BDT,2023-04-26
+19,Arif Hossain,Senior Software Engineer,51764,BDT,2023-06-22
+20,Rahim Khan,Team Lead,114578,BDT,2024-04-13
+21,Sadia Rahman,HR Executive,83690,BDT,2024-06-10
+22,Tania Chowdhury,Senior Software Engineer,109488,BDT,2023-02-08
+23,Salma Akter,Senior Software Engineer,32556,BDT,2024-01-21
+24,Karim Ahmed,Software Engineer,118985,BDT,2023-12-04
+25,Sadia Rahman,Team Lead,109214,BDT,2023-04-17
+26,Rafiqur Rahman,Senior HR Executive,108102,BDT,2023-03-27
+27,Arif Hossain,Junior Engineer,116850,BDT,2024-02-29
+28,Rafiqur Rahman,Software Engineer,83992,BDT,2023-10-06
+29,Salma Akter,Team Lead,67275,BDT,2024-01-25
+30,Fahim Hasan,Senior Software Engineer,96464,BDT,2023-05-27
+31,Rahim Khan,Senior Software Engineer,63458,BDT,2024-05-02
+32,Tania Chowdhury,Intern,31931,BDT,2024-05-30
+33,Karim Ahmed,Junior Engineer,57837,BDT,2023-11-08
+34,Rahim Khan,Senior HR Executive,39207,BDT,2023-03-21
+35,Fahim Hasan,Junior Engineer,91662,BDT,2023-06-02
+36,Rahim Khan,Software Engineer,54697,BDT,2023-11-29
+37,Nabila Islam,Senior Software Engineer,44273,BDT,2024-02-10
+38,Arif Hossain,Software Engineer,69877,BDT,2023-06-23
+39,Fahim Hasan,Intern,36343,BDT,2023-02-17
+40,Rafiqur Rahman,Senior HR Executive,65659,BDT,2023-06-29
+41,Sadia Rahman,Team Lead,104169,BDT,2023-04-24
+42,Nabila Islam,HR Executive,35196,BDT,2023-11-04
+43,Rafiqur Rahman,Software Engineer,83277,BDT,2024-05-14
+44,Fahim Hasan,Senior Software Engineer,73852,BDT,2023-09-17
+45,Rafiqur Rahman,Team Lead,84328,BDT,2023-04-29
+46,Nabila Islam,Software Engineer,31000,BDT,2023-08-30
+47,Rahim Khan,Senior Software Engineer,25876,BDT,2023-06-01
+48,Sadia Rahman,Junior Engineer,87085,BDT,2023-03-28
+49,Karim Ahmed,Team Lead,75234,BDT,2024-03-28
+50,Rahim Khan,Junior Engineer,29343,BDT,2023-09-03
