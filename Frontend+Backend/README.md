@@ -430,3 +430,88 @@ uvicorn main:app --reload --port 8000
 ---
 
 ## Relode App : uvicorn main:app --reload --port 8000
+
+
+## Excel File :
+
+```bash
+pip install pandas openpyxl
+```
+
+### Code :
+```py
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
+from langchain.schema import Document
+from langchain.text_splitter import CharacterTextSplitter
+from langchain_community.vectorstores import FAISS
+from langchain_ollama import OllamaLLM, OllamaEmbeddings
+from langchain.chains import RetrievalQA
+import pandas as pd
+
+
+
+# ✅ Step 1: FastAPI init
+app = FastAPI()
+
+# ✅ Step 2: CORS for React
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# ✅ Step 3: Input model
+class ChatRequest(BaseModel):
+    message: str
+
+
+# 📊 Read Excel and convert to text
+# def read_excel_as_text(file_path: str, sheet_name: str = "Employee_Info") -> str:
+#     df = pd.read_excel(file_path, sheet_name=sheet_name)
+#     text = ""
+#     for _, row in df.iterrows():
+#         text += f"Employee ID: {row['EmployeeID']}, Name: {row['EmployeeName']}\n"
+#     return text
+
+
+def read_excel_as_text(file_path):
+    df = pd.read_excel(file_path, sheet_name="Employee_Info")  # Sheet name ঠিক রাখো
+    text = ""
+    for _, row in df.iterrows():
+        # Properly combine ID and Name
+        text += f"EmployeeID: {row['EmployeeID']} | Name: {row['EmployeeName']}\n"
+    return text
+
+
+# 📂 Load Excel file and process documents
+excel_file = "Employee_Info.xlsx"
+data_text = data_text = read_excel_as_text(excel_file, sheet_name="Sheet1")
+documents = [Document(page_content=data_text)]
+
+
+# 📎 Split documents
+splitter = CharacterTextSplitter(chunk_size=500, chunk_overlap=50)
+split_docs = splitter.split_documents(documents)
+
+
+# 🧬 Embedding + VectorDB
+embeddings = OllamaEmbeddings(model="nomic-embed-text")
+vectorstore = FAISS.from_documents(split_docs, embeddings)
+
+
+# 🤖 Ollama LLM + QA chain
+llm = OllamaLLM(model="mistral")
+qa_chain = RetrievalQA.from_chain_type(llm=llm, retriever=vectorstore.as_retriever())
+
+
+# ✅ Step 7: Chat endpoint
+@app.post("/chat")
+async def chat_endpoint(req: ChatRequest):
+    query = req.message
+    response = qa_chain.invoke({"query": query})
+    return {"reply": response["result"]}
+```
